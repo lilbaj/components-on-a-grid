@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
   font-family: "Georgia", serif;
+  font-size: 2rem;
+  line-height: 1.5;
   background-color: #f2f1ed;
   color: #000;
 }
@@ -21,11 +23,12 @@ header {
 
 body {
   display: grid;
-
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
 }
 
 .logo {
-  width: 14rem:
+  max-width: 14rem:
 }
 
 h2 {
@@ -33,7 +36,21 @@ h2 {
   color: #30658d;
 }
 
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
 li {
   font-family: 'Patua One', cursive;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
   color: #fff;
+}
+
+main {
+  display: flex;
 }

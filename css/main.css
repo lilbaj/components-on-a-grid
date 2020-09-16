@@ -26,7 +26,8 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(2, 50%);
-  gap: 1rem;
+  column-gap: 1rem;
+  row-gap: 1rem;
   grid-template-areas:
     "pano  pano"
     "main  main";
@@ -38,7 +39,7 @@ h1 {
   grid-column: 1;
   grid-row: 1;
   align-self: end;
-  margin: 0;
+  margin: 1rem;
 }
 
 h2 {

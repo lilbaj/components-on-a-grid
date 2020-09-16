@@ -1,5 +1,8 @@
 html {
   box-sizing: border-box;
+  font-family: "Georgia", serif;
+  background-color: #f2f1ed;
+  color: #000;
 }
 
 *,
@@ -13,6 +16,24 @@ img {
 }
 
 header {
-  /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
+}
+
+body {
+  display: grid;
+
+}
+
+.logo {
+  width: 14rem:
+}
+
+h2 {
+  font-family: 'Patua One', cursive;
+  color: #30658d;
+}
+
+li {
+  font-family: 'Patua One', cursive;
+  color: #fff;
 }
